@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Correr Objetópolis (LÖVE)",
+      "type": "process",
+      "command": "love",
+      "windows": { "command": "C:\\Program Files\\LOVE\\love.exe" },
+      "args": ["${workspaceFolder}"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}
